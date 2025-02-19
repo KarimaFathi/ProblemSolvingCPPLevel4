@@ -21,7 +21,12 @@ string convertNumberToWords(long long int number) {
     }
     if (number >= 20 && number <= 99) {
         vector<string> vec2 = { "", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety" };
-        return vec2[number / 10] + "-" + convertNumberToWords(number % 10);
+        if (number % 10 == 0) {
+            return vec2[number / 10];
+        }
+        else {
+            return vec2[number / 10] + "-" + convertNumberToWords(number % 10);
+        }
     }
     if (number >= 100 && number <= 999) {
         if (number % 100 == 0) {
