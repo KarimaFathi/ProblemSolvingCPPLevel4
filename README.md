@@ -77,3 +77,13 @@ The task is to optimize the code from the previous exercise into a single line o
 Below is an example of the program's output:
 
 ![program Output](images/Exo5_Output.png)
+
+## Exercise 7: Day of the Week Calculator
+
+calculates the day of the week for a given date (day, month, year). It takes user input for the date and then displays the corresponding day name (e.g., "Mon").
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo7_Output.png)
