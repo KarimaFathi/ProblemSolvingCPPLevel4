@@ -65,3 +65,15 @@ The task is to output the number of days, hours, minutes, and seconds for a give
 Below is an example of the program's output:
 
 ![program Output](images/Exo5_Output.png)
+
+## Exercise 6: Convert Month To Time Code Optimization
+
+### Problem Statement:
+
+The task is to optimize the code from the previous exercise into a single line of code.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo5_Output.png)
