@@ -53,3 +53,15 @@ The task is to output the number of days, hours, minutes, and seconds in a given
 Below is an example of the program's output:
 
 ![program Output](images/Exo4_Output.png)
+
+## Exercise 5: Convert Month To Time
+
+### Problem Statement:
+
+The task is to output the number of days, hours, minutes, and seconds for a given month in a specific year. If the month is 2 (February), it should check whether the year is a leap year to determine if February has 28 or 29 days. For all other months, it should return the correct number of days based on the month (e.g., 31 days for January, March, May, etc., and 30 days for April, June, September, November). Then, calculate the corresponding number of hours, minutes, and seconds for the given month.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo5_Output.png)
