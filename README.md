@@ -41,3 +41,15 @@ The task is to optimize the code from the previous exercise into a single line o
 Below is an example of the program's output:
 
 ![program Output](images/Exo2_Output.png)
+
+## Exercise 4: Convert Year To Time
+
+### Problem Statement:
+
+The task is to output the number of days, hours, minutes, and seconds in a given year based on whether it is a leap year or not.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo4_Output.png)
