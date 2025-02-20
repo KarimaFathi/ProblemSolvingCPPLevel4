@@ -72,7 +72,6 @@ int main()
 {
     short year = readNumber("Please enter a year : ");
     short month = readNumber("\nPlease enter a month : ");
-    //cout << findDayName(findDayNumber(1, month, year));
     printMonthCalendar(year, month);
 }
 
