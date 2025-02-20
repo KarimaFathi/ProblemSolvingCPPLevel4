@@ -80,6 +80,8 @@ Below is an example of the program's output:
 
 ## Exercise 7: Day of the Week Calculator
 
+### Problem Statement:
+
 calculates the day of the week for a given date (day, month, year). It takes user input for the date and then displays the corresponding day name (e.g., "Mon").
 
 ### Output:
@@ -87,3 +89,15 @@ calculates the day of the week for a given date (day, month, year). It takes use
 Below is an example of the program's output:
 
 ![program Output](images/Exo7_Output.png)
+
+## Exercise 8: Print Calendar
+
+### Problem Statement:
+
+The task is to print the calendar of a given month and year.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo8_Output.png)
