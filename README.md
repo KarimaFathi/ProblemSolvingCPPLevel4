@@ -114,4 +114,12 @@ Below is an example of the program's output:
 
 ![program Output](images/Exo9_Output.png)
 
+## Exercise 10 : Days Of Beginning Of Year
 
+The task is to print the number of days that have passed in the year, given a specific month, day, and year.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo10_Output.png)
