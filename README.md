@@ -90,7 +90,7 @@ Below is an example of the program's output:
 
 ![program Output](images/Exo7_Output.png)
 
-## Exercise 8: Print Calendar
+## Exercise 8: Print Month Calendar
 
 ### Problem Statement:
 
@@ -101,3 +101,17 @@ The task is to print the calendar of a given month and year.
 Below is an example of the program's output:
 
 ![program Output](images/Exo8_Output.png)
+
+## Exercise 9: Print Year Calendar
+
+### Problem Statement:
+
+The task is to print the calendar of a given year.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo9_Output.png)
+
+
