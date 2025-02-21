@@ -116,6 +116,8 @@ Below is an example of the program's output:
 
 ## Exercise 10 : Days Of Beginning Of Year
 
+### Problem Statement:
+
 The task is to print the number of days that have passed in the year, given a specific month, day, and year.
 
 ### Output:
@@ -123,3 +125,15 @@ The task is to print the number of days that have passed in the year, given a sp
 Below is an example of the program's output:
 
 ![program Output](images/Exo10_Output.png)
+
+## Exercise 11 : Date From Day Of Day Order In A Year
+
+### Problem Statement:
+
+the task is from a given number of days and a specific year, calculate the exact date and return it in the format "day/month/year."
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo11_Output.png)
