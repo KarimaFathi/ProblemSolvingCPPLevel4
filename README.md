@@ -137,3 +137,13 @@ the task is from a given number of days and a specific year, calculate the exact
 Below is an example of the program's output:
 
 ![program Output](images/Exo11_Output.png)
+
+## Exercise 12 : Add Days To Date
+
+The program is a date calculator that adds a specified number of days to a given date and outputs the resulting date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo12_Output.png)
