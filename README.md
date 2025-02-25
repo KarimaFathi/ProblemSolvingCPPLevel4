@@ -161,3 +161,15 @@ The task is to compare two given dates and determine which one is earlier, later
 Below is an example of the program's output:
 
 ![program Output](images/Exo13_Output.png)
+
+## Exercise 13 : Check Two Dates Equality
+
+### Problem Statement:
+
+The task is to compare two given dates and determine whether they are equal or not.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo14_Output.png)
