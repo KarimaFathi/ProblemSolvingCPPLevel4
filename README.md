@@ -130,7 +130,7 @@ Below is an example of the program's output:
 
 ### Problem Statement:
 
-the task is from a given number of days and a specific year, calculate the exact date and return it in the format "day/month/year."
+the task is to calculate from a given number of days and a specific year the exact date and return it in the format "day/month/year."
 
 ### Output:
 
@@ -140,10 +140,24 @@ Below is an example of the program's output:
 
 ## Exercise 12 : Add Days To Date
 
-The program is a date calculator that adds a specified number of days to a given date and outputs the resulting date.
+### Problem Statement:
+
+The task is a date calculator that adds a specified number of days to a given date and outputs the resulting date.
 
 ### Output:
 
 Below is an example of the program's output:
 
 ![program Output](images/Exo12_Output.png)
+
+## Exercise 13 : compare Two Dates
+
+### Problem Statement:
+
+The task is to compare two given dates and determine which one is earlier, later, or if they are equal.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo13_Output.png)
