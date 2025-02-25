@@ -162,7 +162,7 @@ Below is an example of the program's output:
 
 ![program Output](images/Exo13_Output.png)
 
-## Exercise 13 : Check Two Dates Equality
+## Exercise 14 : Check Two Dates Equality
 
 ### Problem Statement:
 
@@ -173,3 +173,15 @@ The task is to compare two given dates and determine whether they are equal or n
 Below is an example of the program's output:
 
 ![program Output](images/Exo14_Output.png)
+
+## Exercise 15 : Check if a Day is the Last of the Month and if the Month is the Last of the Year
+
+### Problem Statement:
+
+The task is to determine whether a given day is the last day of the specified month, and then check if that month is the last month of the year.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo15_Output.png)
