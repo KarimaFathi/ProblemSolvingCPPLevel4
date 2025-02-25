@@ -185,3 +185,15 @@ The task is to determine whether a given day is the last day of the specified mo
 Below is an example of the program's output:
 
 ![program Output](images/Exo15_Output.png)
+
+## Exercise 16 : Add One Day To A Date
+
+### Problem Statement:
+
+The task is to add one day to a given date, taking into account whether it is the last day of the month. If it's the last day of the last month, the year should also be incremented. If it's the last day of any other month, the month should be updated. If it's not the last day of the month, simply add one day to the given date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo16_Output.png)
