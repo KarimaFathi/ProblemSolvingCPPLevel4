@@ -210,4 +210,14 @@ Below is an example of the program's output:
 
 ![program Output](images/Exo17_Output.png)
 
+## Exercise 18 : Age Calculation in Days Based on User's Date of Birth
 
+### Problem Statement:
+
+The task is to compute the age in days of a person based on their date of birth, which will be input by the user. The program will calculate the number of days from the user's date of birth to the current date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo18_Output.png)
