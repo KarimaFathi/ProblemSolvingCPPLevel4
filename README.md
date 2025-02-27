@@ -221,3 +221,15 @@ The task is to compute the age in days of a person based on their date of birth,
 Below is an example of the program's output:
 
 ![program Output](images/Exo18_Output.png)
+
+## Exercise 19 : Date Difference Calculator with Date Swapping
+
+### Problem Statement:
+
+The task is to calculate the difference in days between two given dates with handling the swapping of dates when the first date provided is later than the second date. Additionally, the program must print the day difference as a negative number when the first date is later than the second.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo19_Output.png)
