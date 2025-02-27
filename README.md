@@ -197,3 +197,17 @@ The task is to add one day to a given date, taking into account whether it is th
 Below is an example of the program's output:
 
 ![program Output](images/Exo16_Output.png)
+
+## Exercise 17 : Calculate Difference Of Two Dates
+
+### Problem Statement:
+
+The task is to calculate the difference in days between two user-input dates, considering leap years and varying days in months.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo17_Output.png)
+
+
