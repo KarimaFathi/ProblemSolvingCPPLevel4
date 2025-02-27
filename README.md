@@ -190,7 +190,7 @@ Below is an example of the program's output:
 
 ### Problem Statement:
 
-The task is to add one day to a given date, taking into account whether it is the last day of the month. If it's the last day of the last month, the year should also be incremented. If it's the last day of any other month, the month should be updated. If it's not the last day of the month, simply add one day to the given date.
+The task is to add one day to a given date, taking into account whether it is the last day of the month. If it's the last day of the last month, the year should also be incremented. If it's the last day of any other month, the month should be updated. If it's not the last day of the month.
 
 ### Output:
 
@@ -233,3 +233,15 @@ The task is to calculate the difference in days between two given dates with han
 Below is an example of the program's output:
 
 ![program Output](images/Exo19_Output.png)
+
+## Exercise 20 : Add X Days To A Date
+
+### Problem Statement:
+
+The task is to add a specified number of days to a given date, taking into account whether it is the last day of the month. If it's the last day of the last month, the year should also be incremented. If it's the last day of any other month, the month should be updated. If it's not the last day of the month.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo20_Output.png)
