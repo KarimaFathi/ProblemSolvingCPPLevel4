@@ -245,3 +245,15 @@ The task is to add a specified number of days to a given date, taking into accou
 Below is an example of the program's output:
 
 ![program Output](images/Exo20_Output.png)
+
+## Exercise 21 : Add One Week To A Date
+
+### Problem Statement:
+
+The task is to add one week to a given date, taking into account whether it is the last day of the month. If it's the last day of the last month, the year should also be incremented. If it's the last day of any other month, the month should be updated. If it's not the last day of the month.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo21_Output.png)
