@@ -74,6 +74,13 @@ stDate increaseDateByXDays(stDate& date, int daysToAdd) {
     return date;
 }
 
+stDate increaseDateByOneWeek(stDate& date) {
+    for (int i = 1; i <= 7; i++) {
+        increaseDateByOneDay(date);
+    }
+    return date;
+}
+
 
 
 int main()
@@ -84,5 +91,7 @@ int main()
     cout << "\nAdding 1 day is : " << date.day << "/" << date.month << "/" << date.year;
     increaseDateByXDays(date, 10);
     cout << "\nAdding 10 days is : " << date.day << "/" << date.month << "/" << date.year;
+    increaseDateByOneWeek(date);
+    cout << "\nAdding 1 week is : " << date.day << "/" << date.month << "/" << date.year;
 
 }
