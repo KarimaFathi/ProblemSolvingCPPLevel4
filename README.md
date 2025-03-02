@@ -262,7 +262,7 @@ Below is an example of the program's output:
 
 ### Problem Statement:
 
-The task is to add one week to a given date, taking into account whether it is the last day of the month. If it's the last day of the last month, the year should also be incremented. If it's the last day of any other month, the month should be updated. If it's not the last day of the month.
+The task is to add a specified number of weeks to a given date, taking into account whether it is the last day of the month. If it's the last day of the last month, the year should also be incremented. If it's the last day of any other month, the month should be updated. If it's not the last day of the month.
 
 ### Output:
 
@@ -281,3 +281,17 @@ The task is to add one month to a given date.
 Below is an example of the program's output:
 
 ![program Output](images/Exo23_Output.png)
+
+## Exercise 24 : Add X Months To A Date
+
+### Problem Statement:
+
+The task is to add a specified number of months to a given date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo24_Output.png)
+
+
