@@ -294,4 +294,14 @@ Below is an example of the program's output:
 
 ![program Output](images/Exo24_Output.png)
 
+## Exercise 25 : Add One Year To A Date
 
+### Problem Statement:
+
+The task is to add one year to a given date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo25_Output.png)
