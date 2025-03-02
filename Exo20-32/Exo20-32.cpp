@@ -113,22 +113,36 @@ stDate increaseDateByXMonth(stDate& date, int monthsToAdd) {
     return date;
 }
 
+stDate increaseDateOneYear(stDate& date) {
+    if (date.month == 2) {
+        short numberOfDaysInCurrentMonth = NumberOfDaysInAMonth(date.year, date.month);
+        if (date.day > numberOfDaysInCurrentMonth) {
+            date.day = numberOfDaysInCurrentMonth;
+        }
+    }
+    date.year++;
+    return date;
+}
+
+
 
 int main()
 {
     stDate date = readDate();
     cout << "\nDate after : \n";
     increaseDateByOneDay(date);
-    cout << "\nAdding 1  day is   : " << date.day << "/" << date.month << "/" << date.year;
+    cout << "\nAdding 1   day    is   : " << date.day << "/" << date.month << "/" << date.year;
     increaseDateByXDays(date, 10);
-    cout << "\nAdding 10 days is : " << date.day << "/" << date.month << "/" << date.year;
+    cout << "\nAdding 10  days   is   : " << date.day << "/" << date.month << "/" << date.year;
     increaseDateByOneWeek(date);
-    cout << "\nAdding 1 week is  : " << date.day << "/" << date.month << "/" << date.year;
+    cout << "\nAdding 1   week   is   : " << date.day << "/" << date.month << "/" << date.year;
     increaseDateByXWeeks(date, 10);
-    cout << "\nAdding 10 weeks is  : " << date.day << "/" << date.month << "/" << date.year;
+    cout << "\nAdding 10  weeks  is   : " << date.day << "/" << date.month << "/" << date.year;
     increaseDateByOneMonth(date);
-    cout << "\nAdding 1 month is  : " << date.day << "/" << date.month << "/" << date.year;
+    cout << "\nAdding 1   month  is   : " << date.day << "/" << date.month << "/" << date.year;
     increaseDateByXMonth(date, 5);
-    cout << "\nAdding 5 months is  : " << date.day << "/" << date.month << "/" << date.year;
-     
+    cout << "\nAdding 5   months is   : " << date.day << "/" << date.month << "/" << date.year;
+    increaseDateOneYear(date);
+    cout << "\nAdding 1   year   is   : " << date.day << "/" << date.month << "/" << date.year;
+    
 }
