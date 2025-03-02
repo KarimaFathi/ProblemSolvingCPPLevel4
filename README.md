@@ -270,3 +270,14 @@ Below is an example of the program's output:
 
 ![program Output](images/Exo22_Output.png)
 
+## Exercise 23 : Add One Month To A Date
+
+### Problem Statement:
+
+The task is to add one month to a given date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo23_Output.png)
