@@ -90,6 +90,21 @@ stDate increaseDateByXWeeks(stDate& date, int weeksToAdd) {
     return date;
 }
 
+stDate increaseDateByOneMonth(stDate& date) {
+    if (date.month == 12) {
+        date.month = 1;
+        date.year++;
+       }
+    else {
+        date.month++;
+    }
+    short numberOfDaysInCurrentMonth = NumberOfDaysInAMonth(date.year, date.month);
+    if (date.day > numberOfDaysInCurrentMonth) {
+        date.day = numberOfDaysInCurrentMonth;
+    }
+    return date;
+}
+
 int main()
 {
     stDate date = readDate();
@@ -102,5 +117,7 @@ int main()
     cout << "\nAdding 1 week is  : " << date.day << "/" << date.month << "/" << date.year;
     increaseDateByXWeeks(date, 10);
     cout << "\nAdding 10 weeks is  : " << date.day << "/" << date.month << "/" << date.year;
+    increaseDateByOneMonth(date);
+    cout << "\nAdding 1 month is  : " << date.day << "/" << date.month << "/" << date.year;
      
 }
