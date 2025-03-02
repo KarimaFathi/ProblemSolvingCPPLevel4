@@ -305,3 +305,15 @@ The task is to add one year to a given date.
 Below is an example of the program's output:
 
 ![program Output](images/Exo25_Output.png)
+
+## Exercise 26 : Add X Years To A Date
+
+### Problem Statement:
+
+The task is to adda specified number of years to a given date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo26_Output.png)
