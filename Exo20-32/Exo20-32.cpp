@@ -105,6 +105,15 @@ stDate increaseDateByOneMonth(stDate& date) {
     return date;
 }
 
+stDate increaseDateByXMonth(stDate& date, int monthsToAdd) {
+    for (int i = 1; i <= monthsToAdd; i++) {
+            increaseDateByOneMonth(date);
+        
+    }
+    return date;
+}
+
+
 int main()
 {
     stDate date = readDate();
@@ -119,5 +128,7 @@ int main()
     cout << "\nAdding 10 weeks is  : " << date.day << "/" << date.month << "/" << date.year;
     increaseDateByOneMonth(date);
     cout << "\nAdding 1 month is  : " << date.day << "/" << date.month << "/" << date.year;
+    increaseDateByXMonth(date, 5);
+    cout << "\nAdding 5 months is  : " << date.day << "/" << date.month << "/" << date.year;
      
 }
