@@ -353,3 +353,15 @@ The task is to add one century to a given date.
 Below is an example of the program's output:
 
 ![program Output](images/Exo30_Output.png)
+
+## Exercise 32 : Add One Millennium To A Date
+
+### Problem Statement:
+
+The task is to add one millennium to a given date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo32_Output.png)
