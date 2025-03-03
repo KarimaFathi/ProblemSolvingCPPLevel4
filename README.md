@@ -341,3 +341,15 @@ The task is to add a specified number of decades to a given date.
 Below is an example of the program's output:
 
 ![program Output](images/Exo29_Output.png)
+
+## Exercise 30 : Add One Century To A Date
+
+### Problem Statement:
+
+The task is to add one century to a given date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo30_Output.png)
