@@ -377,3 +377,15 @@ The task is to subtract one day from a given date.
 Below is an example of the program's output:
 
 ![program Output](images/Exo33_Output.png)
+
+## Exercise 34 : Subtract X Days From A Date
+
+### Problem Statement:
+
+The task is to subtract a specified number of days from a given date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo34_Output.png)
