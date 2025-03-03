@@ -402,3 +402,14 @@ Below is an example of the program's output:
 
 ![program Output](images/Exo35_Output.png)
 
+## Exercise 36 : Subtract X Weeks From A Date
+
+### Problem Statement:
+
+The task is to subtract a specifed number of weeks from a given date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo36_Output.png)
