@@ -65,12 +65,12 @@ stDate decreaseDateByOneDay(stDate& date) {
     return date;
 }
 
-//stDate increaseDateByXDays(stDate& date, int daysToAdd) {
-//    for (int i = 1; i <= daysToAdd; i++) {
-//        increaseDateByOneDay(date);
-//    }
-//    return date;
-//}
+stDate decreaseDateByXDays(stDate& date, int daysToSubtract) {
+    for (int i = 1; i <= daysToSubtract; i++) {
+        decreaseDateByOneDay(date);
+    }
+    return date;
+}
 //
 //stDate increaseDateByOneWeek(stDate& date) {
 //    for (int i = 1; i <= 7; i++) {
@@ -168,9 +168,9 @@ int main()
     cout << "\nDate after : \n";
     decreaseDateByOneDay(date);
     cout << "\nSubtracting 1    day       is   : " << date.day << "/" << date.month << "/" << date.year;
-  /*  increaseDateByXDays(date, 10);
-    cout << "\nAdding 10   days      is   : " << date.day << "/" << date.month << "/" << date.year;
-    increaseDateByOneWeek(date);
+    decreaseDateByXDays(date, 10);
+    cout << "\nSubtracting 10   days      is   : " << date.day << "/" << date.month << "/" << date.year;
+   /* increaseDateByOneWeek(date);
     cout << "\nAdding 1    week      is   : " << date.day << "/" << date.month << "/" << date.year;
     increaseDateByXWeeks(date, 10);
     cout << "\nAdding 10   weeks     is   : " << date.day << "/" << date.month << "/" << date.year;
