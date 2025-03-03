@@ -132,6 +132,14 @@ stDate increaseDateByXYears(stDate& date, int yearsToAdd) {
     return date;
 }
 
+stDate increaseDateByOneDecade(stDate& date) {
+    for (int i = 1; i <= 10; i++) {
+        increaseDateOneYear(date);
+
+    }
+    return date;
+}
+
 
 
 int main()
@@ -151,8 +159,10 @@ int main()
     increaseDateByXMonth(date, 5);
     cout << "\nAdding 5    months is   : " << date.day << "/" << date.month << "/" << date.year;
     increaseDateOneYear(date);
-    cout << "\nAdding 1    year   is   : " << date.day << "/" << date.month << "/" << date.year;
+    cout << "\nAdding 1    year    is  : " << date.day << "/" << date.month << "/" << date.year;
     increaseDateByXYears(date, 10);
     cout << "\nAdding 10   years   is  : " << date.day << "/" << date.month << "/" << date.year;
+    increaseDateByOneDecade(date);
+    cout << "\nAdding 1    decade  is  : " << date.day << "/" << date.month << "/" << date.year;
     
 }
