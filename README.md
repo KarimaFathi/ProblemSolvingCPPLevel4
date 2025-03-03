@@ -365,3 +365,15 @@ The task is to add one millennium to a given date.
 Below is an example of the program's output:
 
 ![program Output](images/Exo32_Output.png)
+
+## Exercise 33 : Subtract One Day From A Date
+
+### Problem Statement:
+
+The task is to subtract one day from a given date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo33_Output.png)
