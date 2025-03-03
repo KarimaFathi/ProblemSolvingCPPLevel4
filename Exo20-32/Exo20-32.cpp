@@ -140,6 +140,13 @@ stDate increaseDateByOneDecade(stDate& date) {
     return date;
 }
 
+stDate increaseDateByXDecades(stDate& date, int decadesToAdd) {
+    for (int i = 1; i <= decadesToAdd; i++) {
+        increaseDateByOneDecade(date);
+
+    }
+    return date;
+}
 
 
 int main()
@@ -164,5 +171,7 @@ int main()
     cout << "\nAdding 10   years   is  : " << date.day << "/" << date.month << "/" << date.year;
     increaseDateByOneDecade(date);
     cout << "\nAdding 1    decade  is  : " << date.day << "/" << date.month << "/" << date.year;
+    increaseDateByXDecades(date, 10);
+    cout << "\nAdding 10  decades  is  : " << date.day << "/" << date.month << "/" << date.year;
     
 }
