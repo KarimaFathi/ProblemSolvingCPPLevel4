@@ -310,7 +310,7 @@ Below is an example of the program's output:
 
 ### Problem Statement:
 
-The task is to adda specified number of years to a given date.
+The task is to add a specified number of years to a given date.
 
 ### Output:
 
@@ -318,7 +318,7 @@ Below is an example of the program's output:
 
 ![program Output](images/Exo26_Output.png)
 
-## Exercise 25 : Add One Decade To A Date
+## Exercise 28 : Add One Decade To A Date
 
 ### Problem Statement:
 
@@ -329,3 +329,15 @@ The task is to add one decade to a given date.
 Below is an example of the program's output:
 
 ![program Output](images/Exo28_Output.png)
+
+## Exercise 29 : Add One Decade To A Date
+
+### Problem Statement:
+
+The task is to add a specified number of decades to a given date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo29_Output.png)
