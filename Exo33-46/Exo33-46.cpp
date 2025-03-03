@@ -79,15 +79,15 @@ stDate decreaseDateByOneWeek(stDate& date) {
     return date;
 }
 
-//stDate increaseDateByXWeeks(stDate& date, int weeksToAdd) {
-//    for (int i = 1; i <= weeksToAdd; i++) {
-//        for (int j = 1; j <= 7; j++) {
-//            increaseDateByOneDay(date);
-//        }
-//    }
-//    return date;
-//}
-//
+stDate decreaseDateByXWeeks(stDate& date, int weeksToSubtract) {
+    for (int i = 1; i <= weeksToSubtract; i++) {
+        for (int j = 1; j <= 7; j++) {
+            decreaseDateByOneDay(date);
+        }
+    }
+    return date;
+}
+
 //stDate increaseDateByOneMonth(stDate& date) {
 //    if (date.month == 12) {
 //        date.month = 1;
@@ -172,23 +172,23 @@ int main()
     cout << "\nSubtracting 10   days      is   : " << date.day << "/" << date.month << "/" << date.year;
     decreaseDateByOneWeek(date);
     cout << "\nSubtracting 1    week      is   : " << date.day << "/" << date.month << "/" << date.year;
-   /* increaseDateByXWeeks(date, 10);
-    cout << "\nAdding 10   weeks     is   : " << date.day << "/" << date.month << "/" << date.year;
-    increaseDateByOneMonth(date);
-    cout << "\nAdding 1    month     is   : " << date.day << "/" << date.month << "/" << date.year;
-    increaseDateByXMonth(date, 5);
-    cout << "\nAdding 5    months    is   : " << date.day << "/" << date.month << "/" << date.year;
-    increaseDateOneYear(date);
-    cout << "\nAdding 1    year      is   : " << date.day << "/" << date.month << "/" << date.year;
-    increaseDateByXYears(date, 10);
-    cout << "\nAdding 10   years     is   : " << date.day << "/" << date.month << "/" << date.year;
-    increaseDateByOneDecade(date);
-    cout << "\nAdding 1    decade    is   : " << date.day << "/" << date.month << "/" << date.year;
-    increaseDateByXDecades(date, 10);
-    cout << "\nAdding 10  decades    is   : " << date.day << "/" << date.month << "/" << date.year;
-    increaseDateByOneCentury(date);
-    cout << "\nAdding 1  century     is   : " << date.day << "/" << date.month << "/" << date.year;
-    increaseDateByOneMillennium(date);
-    cout << "\nAdding 1  millennium  is   : " << date.day << "/" << date.month << "/" << date.year;*/
+    decreaseDateByXWeeks(date, 10);
+    cout << "\nSubtracting 10   weeks     is   : " << date.day << "/" << date.month << "/" << date.year;
+    //increaseDateByOneMonth(date);
+    //cout << "\nAdding 1    month     is   : " << date.day << "/" << date.month << "/" << date.year;
+    //increaseDateByXMonth(date, 5);
+    //cout << "\nAdding 5    months    is   : " << date.day << "/" << date.month << "/" << date.year;
+    //increaseDateOneYear(date);
+    //cout << "\nAdding 1    year      is   : " << date.day << "/" << date.month << "/" << date.year;
+    //increaseDateByXYears(date, 10);
+    //cout << "\nAdding 10   years     is   : " << date.day << "/" << date.month << "/" << date.year;
+    //increaseDateByOneDecade(date);
+    //cout << "\nAdding 1    decade    is   : " << date.day << "/" << date.month << "/" << date.year;
+    //increaseDateByXDecades(date, 10);
+    //cout << "\nAdding 10  decades    is   : " << date.day << "/" << date.month << "/" << date.year;
+    //increaseDateByOneCentury(date);
+    //cout << "\nAdding 1  century     is   : " << date.day << "/" << date.month << "/" << date.year;
+    //increaseDateByOneMillennium(date);
+    //cout << "\nAdding 1  millennium  is   : " << date.day << "/" << date.month << "/" << date.year;
 
 }
