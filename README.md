@@ -317,3 +317,15 @@ The task is to adda specified number of years to a given date.
 Below is an example of the program's output:
 
 ![program Output](images/Exo26_Output.png)
+
+## Exercise 25 : Add One Decade To A Date
+
+### Problem Statement:
+
+The task is to add one decade to a given date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo28_Output.png)
