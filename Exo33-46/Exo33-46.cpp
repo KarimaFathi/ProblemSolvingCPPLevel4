@@ -138,14 +138,14 @@ stDate decreaseDateByOneDecade(stDate& date) {
     return date;
 }
 
-//stDate increaseDateByXDecades(stDate& date, int decadesToAdd) {
-//    for (int i = 1; i <= decadesToAdd; i++) {
-//        increaseDateByOneDecade(date);
-//
-//    }
-//    return date;
-//}
-//
+stDate decreaseDateByXDecades(stDate& date, int decadesToSubtract) {
+    for (int i = 1; i <= decadesToSubtract; i++) {
+        decreaseDateByOneDecade(date);
+
+    }
+    return date;
+}
+
 //stDate increaseDateByOneCentury(stDate& date) {
 //    for (int i = 1; i <= 10; i++) {
 //        increaseDateByOneDecade(date);
@@ -184,8 +184,8 @@ int main()
     cout << "\nSubtracting 10   years     is   : " << date.day << "/" << date.month << "/" << date.year;
     decreaseDateByOneDecade(date);
     cout << "\nSubtracting 1    decade    is   : " << date.day << "/" << date.month << "/" << date.year;
-    //increaseDateByXDecades(date, 10);
-    //cout << "\nAdding 10  decades    is   : " << date.day << "/" << date.month << "/" << date.year;
+    decreaseDateByXDecades(date, 10);
+    cout << "\nSubtracting 10  decades    is   : " << date.day << "/" << date.month << "/" << date.year;
     //increaseDateByOneCentury(date);
     //cout << "\nAdding 1  century     is   : " << date.day << "/" << date.month << "/" << date.year;
     //increaseDateByOneMillennium(date);
