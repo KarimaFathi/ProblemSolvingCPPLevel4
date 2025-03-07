@@ -426,7 +426,7 @@ Below is an example of the program's output:
 
 ![program Output](images/Exo37_Output.png)
 
-## Exercise 38 : Subtract X Months To A Date
+## Exercise 38 : Subtract X Months From A Date
 
 ### Problem Statement:
 
@@ -437,3 +437,15 @@ The task is to subtract a specified number of months to a given date.
 Below is an example of the program's output:
 
 ![program Output](images/Exo38_Output.png)
+
+## Exercise 39 : Subtract One Year From A Date
+
+### Problem Statement:
+
+The task is to subtract one year to a given date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo39_Output.png)
