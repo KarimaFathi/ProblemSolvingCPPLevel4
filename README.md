@@ -330,7 +330,7 @@ Below is an example of the program's output:
 
 ![program Output](images/Exo28_Output.png)
 
-## Exercise 29 : Add One Decade To A Date
+## Exercise 29 : Add X Decades To A Date
 
 ### Problem Statement:
 
@@ -442,10 +442,23 @@ Below is an example of the program's output:
 
 ### Problem Statement:
 
-The task is to subtract one year to a given date.
+The task is to subtract one year from a given date.
 
 ### Output:
 
 Below is an example of the program's output:
 
 ![program Output](images/Exo39_Output.png)
+
+## Exercise 40 : Subtract X Years From A Date
+
+### Problem Statement:
+
+The task is to subtract a specified number of years from a given date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo40_Output.png)
+
