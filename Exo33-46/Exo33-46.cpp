@@ -130,14 +130,14 @@ stDate decreaseDateByXYears(stDate& date, int yearsToSubtract) {
     return date;
 }
 
-//stDate increaseDateByOneDecade(stDate& date) {
-//    for (int i = 1; i <= 10; i++) {
-//        increaseDateOneYear(date);
-//
-//    }
-//    return date;
-//}
-//
+stDate decreaseDateByOneDecade(stDate& date) {
+    for (int i = 1; i <= 10; i++) {
+        decreaseDateOneYear(date);
+
+    }
+    return date;
+}
+
 //stDate increaseDateByXDecades(stDate& date, int decadesToAdd) {
 //    for (int i = 1; i <= decadesToAdd; i++) {
 //        increaseDateByOneDecade(date);
@@ -182,8 +182,8 @@ int main()
     cout << "\nSubtracting 1    year      is   : " << date.day << "/" << date.month << "/" << date.year;
     decreaseDateByXYears(date, 10);
     cout << "\nSubtracting 10   years     is   : " << date.day << "/" << date.month << "/" << date.year;
-    //increaseDateByOneDecade(date);
-    //cout << "\nAdding 1    decade    is   : " << date.day << "/" << date.month << "/" << date.year;
+    decreaseDateByOneDecade(date);
+    cout << "\nSubtracting 1    decade    is   : " << date.day << "/" << date.month << "/" << date.year;
     //increaseDateByXDecades(date, 10);
     //cout << "\nAdding 10  decades    is   : " << date.day << "/" << date.month << "/" << date.year;
     //increaseDateByOneCentury(date);
