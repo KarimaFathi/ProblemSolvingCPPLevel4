@@ -425,3 +425,15 @@ The task is to subtract one month from a given date.
 Below is an example of the program's output:
 
 ![program Output](images/Exo37_Output.png)
+
+## Exercise 38 : Subtract X Months To A Date
+
+### Problem Statement:
+
+The task is to subtract a specified number of months to a given date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo38_Output.png)
