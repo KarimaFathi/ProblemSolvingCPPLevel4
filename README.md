@@ -473,3 +473,15 @@ The task is to subtract one decade from a given date.
 Below is an example of the program's output:
 
 ![program Output](images/Exo42_Output.png)
+
+## Exercise 43 : Subtract X Decades From A Date
+
+### Problem Statement:
+
+The task is to subtract a specified number of decades from a given date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo43_Output.png)
