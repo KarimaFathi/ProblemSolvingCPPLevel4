@@ -462,3 +462,14 @@ Below is an example of the program's output:
 
 ![program Output](images/Exo40_Output.png)
 
+## Exercise 42 : Subtract One Decade From A Date
+
+### Problem Statement:
+
+The task is to subtract one decade from a given date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo42_Output.png)
