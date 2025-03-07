@@ -485,3 +485,15 @@ The task is to subtract a specified number of decades from a given date.
 Below is an example of the program's output:
 
 ![program Output](images/Exo43_Output.png)
+
+## Exercise 44 : Subtract One Century From A Date
+
+### Problem Statement:
+
+The task is to subtract one century from a given date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo44_Output.png)
