@@ -103,14 +103,14 @@ stDate decreaseDateByOneMonth(stDate& date) {
     return date;
 }
 
-//stDate increaseDateByXMonth(stDate& date, int monthsToAdd) {
-//    for (int i = 1; i <= monthsToAdd; i++) {
-//        increaseDateByOneMonth(date);
-//
-//    }
-//    return date;
-//}
-//
+stDate decreaseDateByXMonth(stDate& date, int monthsToSubtract) {
+    for (int i = 1; i <= monthsToSubtract; i++) {
+        decreaseDateByOneMonth(date);
+
+    }
+    return date;
+}
+
 //stDate increaseDateOneYear(stDate& date) {
 //    if (date.month == 2) {
 //        short numberOfDaysInCurrentMonth = NumberOfDaysInAMonth(date.year, date.month);
@@ -176,8 +176,8 @@ int main()
     cout << "\nSubtracting 10   weeks     is   : " << date.day << "/" << date.month << "/" << date.year;
     decreaseDateByOneMonth(date);
     cout << "\nSubtracting 1    month     is   : " << date.day << "/" << date.month << "/" << date.year;
-    //increaseDateByXMonth(date, 5);
-    //cout << "\nAdding 5    months    is   : " << date.day << "/" << date.month << "/" << date.year;
+    decreaseDateByXMonth(date, 5);
+    cout << "\nSubtracting 5    months    is   : " << date.day << "/" << date.month << "/" << date.year;
     //increaseDateOneYear(date);
     //cout << "\nAdding 1    year      is   : " << date.day << "/" << date.month << "/" << date.year;
     //increaseDateByXYears(date, 10);
