@@ -35,16 +35,16 @@ string findDayName(short dayNumber) {
     return daysName[dayNumber];
 }
 
-bool isWeekEnd(string dayName) {
-    return (dayName == "Fri" || dayName == "Sat");
+bool isWeekEnd(short dayOrder) {
+    return (dayOrder == 5 || dayOrder == 6);
 }
 
-bool isEndOfWeek(string dayName) {
-    return dayName == "Sat";
+bool isEndOfWeek(short dayOrder) {
+    return dayOrder == 6;
 }
 
-bool isBusinessDay(string dayName) {
-    return !isWeekEnd(dayName);
+bool isBusinessDay(short dayOrder) {
+    return !isWeekEnd(dayOrder);
 }
 
 short determineDaysUntilTheEndOfWeek(short dayNumber) {
@@ -94,24 +94,25 @@ short determineDaysUntilTheEndOfYear(stDate date) {
 
 int main() {
     stDate date = readDate();
+    short dayOrder = findDayNumber(date.day, date.month, date.year);
     string dayName = findDayName(findDayNumber(date.day, date.month, date.year));
     cout << "\nToday is " << dayName << ", " << date.day << "/" << date.month << "/" << date.year << endl;
     cout << "\nIs it a weekend ?\n";
-    if (isWeekEnd(dayName) == true) {
+    if (isWeekEnd(dayOrder) == true) {
         cout << "Yes, it is a weekend.\n";
     }
     else {
         cout << "No, it is not a weekend.\n";
     }
     cout << "\nIs it an end of week ?\n";
-    if (isEndOfWeek(dayName) == true) {
+    if (isEndOfWeek(dayOrder) == true) {
         cout << "Yes, it is.\n";
     }
     else {
         cout << "No, it isn't.\n";
     }
     cout << "\nIs it a business day?\n";
-    if (isBusinessDay(dayName) == true) {
+    if (isBusinessDay(dayOrder) == true) {
         cout << "Yes, it is.\n";
     }
     else {
