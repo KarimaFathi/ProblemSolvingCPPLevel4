@@ -43,6 +43,10 @@ bool isEndOfWeek(string dayName) {
     return dayName == "Sat";
 }
 
+bool isBusinessDay(string dayName) {
+    return !isWeekEnd(dayName);
+}
+
 int main() {
     stDate date = readDate();
     string dayName = findDayName(findDayNumber(date.day, date.month, date.year));
@@ -56,6 +60,13 @@ int main() {
     }
     cout << "\nIs it an end of week ?\n";
     if (isEndOfWeek(dayName) == true) {
+        cout << "Yes, it is.\n";
+    }
+    else {
+        cout << "No, it isn't.\n";
+    }
+    cout << "\nIs it a business day?\n";
+    if (isBusinessDay(dayName) == true) {
         cout << "Yes, it is.\n";
     }
     else {
