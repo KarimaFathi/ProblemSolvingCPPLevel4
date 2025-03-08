@@ -39,6 +39,10 @@ bool isWeekEnd(string dayName) {
     return (dayName == "Fri" || dayName == "Sat");
 }
 
+bool isEndOfWeek(string dayName) {
+    return dayName == "Sat";
+}
+
 int main() {
     stDate date = readDate();
     string dayName = findDayName(findDayNumber(date.day, date.month, date.year));
@@ -50,5 +54,11 @@ int main() {
     else {
         cout << "No, it is not a weekend.\n";
     }
-
+    cout << "\nIs it an end of week ?\n";
+    if (isEndOfWeek(dayName) == true) {
+        cout << "Yes, it is.\n";
+    }
+    else {
+        cout << "No, it isn't.\n";
+    }
 }
