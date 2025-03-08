@@ -47,6 +47,15 @@ bool isBusinessDay(string dayName) {
     return !isWeekEnd(dayName);
 }
 
+short determineDaysUntilTheEndOfWeek(short dayNumber) {
+    short daysBeforeEndOfWeek = 0;
+    while (dayNumber != 6) {
+        daysBeforeEndOfWeek++;
+        dayNumber++;
+    }
+    return daysBeforeEndOfWeek;
+}
+
 int main() {
     stDate date = readDate();
     string dayName = findDayName(findDayNumber(date.day, date.month, date.year));
@@ -72,4 +81,5 @@ int main() {
     else {
         cout << "No, it isn't.\n";
     }
+    cout << "\nDays until end of week : " << determineDaysUntilTheEndOfWeek(findDayNumber(date.day, date.month, date.year)) << " day(s)";
 }
