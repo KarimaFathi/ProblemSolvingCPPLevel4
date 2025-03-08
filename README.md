@@ -514,10 +514,10 @@ Below is an example of the program's output:
 
 ### Problem Statement:
 
-The task is to print the name of the day for a given date, and then determine whether it is a weekend or not (with the weekend being Friday and Saturday), an end of week or not (with the end of week is Saturday) and whether it is a business day or not. Then output the number of days until the end of week.
+The task is to print the name of the day for a given date, and then determine whether it is a weekend or not (with the weekend being Friday and Saturday), an end of week or not (with the end of week is Saturday) and whether it is a business day or not. Then output the number of days until the end of week, month.
 
 ### Output:
 
 Below is an example of the program's output:
 
-![program Output](images/Exo51_Output.png)
+![program Output](images/Exo52_Output.png)
