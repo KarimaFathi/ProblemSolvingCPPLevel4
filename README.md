@@ -510,14 +510,14 @@ Below is an example of the program's output:
 
 ![program Output](images/Exo46_Output.png)
 
-## Exercises 47-53 :
+## Exercises 47-53 : Identifying Day, Weekend, End of Week, Business Day, and Time Until Key Dates
 
 ### Problem Statement:
 
-The task is to print the name of the day for a given date, and then determine whether it is a weekend or not (with the weekend being Friday and Saturday), an end of week or not (with the end of week is Saturday) and whether it is a business day or not. Then output the number of days until the end of week, month.
+The task is to determine the day of the week for a given date and classify it based on several conditions. Specifically, you need to identify if the date falls on a weekend (Friday or Saturday), an end-of-week day (Saturday), or a business day. Additionally, calculate and display the number of days remaining until the end of the week, the end of the month, and the end of the year.
 
 ### Output:
 
 Below is an example of the program's output:
 
-![program Output](images/Exo52_Output.png)
+![program Output](images/Exo53_Output.png)
