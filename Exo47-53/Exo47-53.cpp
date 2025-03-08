@@ -77,6 +77,20 @@ short determineDaysUntilTheEndOfMonth(stDate date) {
     return NumberOfDaysInAMonth(date.year, date.month) - date.day + 1;
 }
 
+short NumberOfDaysFromTheBeginningOfTheYear(short year, short month, short day) {
+    short result = 0;
+    for (short i = 1; i < month; i++) {
+        result += NumberOfDaysInAMonth(year, i);
+    }
+    result += day;
+    return result;
+}
+
+
+short determineDaysUntilTheEndOfYear(stDate date) {
+    short daysOfYear = (isLeapYear(date.year) ? 366 : 365);
+    return daysOfYear - NumberOfDaysFromTheBeginningOfTheYear(date.year, date.month, date.day) + 1;
+}
 
 int main() {
     stDate date = readDate();
@@ -103,9 +117,8 @@ int main() {
     else {
         cout << "No, it isn't.\n";
     }
-    cout << "\nDays until end of week : " << determineDaysUntilTheEndOfWeek(findDayNumber(date.day, date.month, date.year)) << " day(s)";
+    cout << "\nDays until end of week  : " << determineDaysUntilTheEndOfWeek(findDayNumber(date.day, date.month, date.year)) << " day(s)";
     cout << "\nDays until end of month : " << determineDaysUntilTheEndOfMonth(date) << " day(s)";
-
-
+    cout << "\nDays until end of year  : " << determineDaysUntilTheEndOfYear(date) << " day(s)";
 
 }
