@@ -545,3 +545,15 @@ The task is to calculate the return date from a vacation by excluding weekends (
 Below is an example of the program's output:
 
 ![program Output](images/Exo55_Output.png)
+
+## Exercise 56 : Date Comparison
+
+### Problem Statement:
+
+The task is to compare two dates and checks if the first date occurs after the second date. It takes two dates as input and outputs whether the first date is later than the second based on the year, month, and day.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo56_Output.png)
