@@ -521,3 +521,15 @@ The task is to determine the day of the week for a given date and classify it ba
 Below is an example of the program's output:
 
 ![program Output](images/Exo53_Output.png)
+
+## Exercise 46 : Calculate Vacation Days
+
+### Problem Statement:
+
+The task is to calculate the number of vacation days based on a given start and end date, excluding any weekends.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo54_Output.png)
