@@ -34,21 +34,6 @@ string findDayName(short dayNumber) {
     return daysName[dayNumber];
 }
 
-bool isDate1BeforeDate2(stDate date1, stDate date2) {
-    if (date1.year < date2.year) {
-        return true;
-    }
-    else if (date1.year == date2.year) {
-
-        if (date1.month < date2.month) {
-            return true;
-        }
-        else if (date1.month == date2.month && date1.day < date2.day) {
-            return true;
-        }
-    }
-    else return false;
-}
 
 bool isLeapYear(short year) {
     return (year % 400 == 0) || (year % 100 != 0 && year % 4 == 0);
