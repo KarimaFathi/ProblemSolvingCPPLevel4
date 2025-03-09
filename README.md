@@ -522,7 +522,7 @@ Below is an example of the program's output:
 
 ![program Output](images/Exo53_Output.png)
 
-## Exercise 46 : Calculate Vacation Days
+## Exercise 54 : Calculate Vacation Days
 
 ### Problem Statement:
 
@@ -533,3 +533,15 @@ The task is to calculate the number of vacation days based on a given start and 
 Below is an example of the program's output:
 
 ![program Output](images/Exo54_Output.png)
+
+## Exercise 55 : Vacation Return Date Calculator
+
+### Problem Statement:
+
+The task is to calculate the return date from a vacation by excluding weekends (Saturdays and Sundays) from the vacation days. It takes the start date and number of vacation days as input and outputs the return date along with the day of the week.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo55_Output.png)
