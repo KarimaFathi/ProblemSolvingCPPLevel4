@@ -557,3 +557,15 @@ The task is to compare two dates and checks if the first date occurs after the s
 Below is an example of the program's output:
 
 ![program Output](images/Exo56_Output.png)
+
+## Exercise 56 : Date Comparison
+
+### Problem Statement:
+
+The task is to compare two dates and return -1, 0, or 1 based on whether date 1 is before, equal to, or after date 2.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo57_Output.png)
