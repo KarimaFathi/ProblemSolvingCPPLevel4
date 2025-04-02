@@ -558,7 +558,7 @@ Below is an example of the program's output:
 
 ![program Output](images/Exo56_Output.png)
 
-## Exercise 56 : Date Comparison
+## Exercise 57 : Date Comparison
 
 ### Problem Statement:
 
@@ -569,3 +569,15 @@ The task is to compare two dates and return -1, 0, or 1 based on whether date 1 
 Below is an example of the program's output:
 
 ![program Output](images/Exo57_Output.png)
+
+## Exercise 58 : Comparing Overlapping Periods
+
+### Problem Statement:
+
+The task is to compare two given periods (provided by user input) and determine whether they overlap.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo58_Output.png)
