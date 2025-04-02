@@ -606,10 +606,14 @@ Below is an example of the program's output:
 
 ![program Output](images/Exo60_Output.png)
 
-
-## Exercise 60 : Count Overlap Days 
+## Exercise 61 : Count Overlap Days
 
 ### Problem Statement:
 
 The task is to count the number of overlapping days between two given periods.
 
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo61_Output.png)
