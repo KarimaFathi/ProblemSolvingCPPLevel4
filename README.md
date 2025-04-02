@@ -593,3 +593,23 @@ The task is to determine the length in days of a given period.
 Below is an example of the program's output:
 
 ![program Output](images/Exo59_Output.png)
+
+## Exercise 60 : Checking If a Date Falls Within a Period
+
+### Problem Statement:
+
+The task is to determine the length in days of a given period.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo60_Output.png)
+
+
+## Exercise 60 : Count Overlap Days 
+
+### Problem Statement:
+
+The task is to count the number of overlapping days between two given periods.
+
