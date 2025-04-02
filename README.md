@@ -581,3 +581,15 @@ The task is to compare two given periods (provided by user input) and determine 
 Below is an example of the program's output:
 
 ![program Output](images/Exo58_Output.png)
+
+## Exercise 59 : Period Length In Days
+
+### Problem Statement:
+
+The task is to determine the length in days of a given period.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo59_Output.png)
