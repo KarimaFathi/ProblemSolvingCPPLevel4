@@ -629,3 +629,13 @@ The task is to verify whether a given date is valid.
 Below is an example of the program's output:
 
 ![program Output](images/Exo62_Output.png)
+
+## Exercise 63 : Convert String To Date
+
+The task is to convert a given string in the format of dd/mm/yyyy to a date.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo63_Output.png)
