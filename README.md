@@ -617,3 +617,15 @@ The task is to count the number of overlapping days between two given periods.
 Below is an example of the program's output:
 
 ![program Output](images/Exo61_Output.png)
+
+## Exercise 62 : Check Date Validation
+
+### Problem Statement:
+
+The task is to verify whether a given date is valid.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo62_Output.png)
