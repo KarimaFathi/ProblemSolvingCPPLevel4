@@ -640,7 +640,7 @@ Below is an example of the program's output:
 
 ![program Output](images/Exo63_Output.png)
 
-## Exercise 63 : Convert Date To String
+## Exercise 64 : Convert Date To String
 
 The task is to convert a given date to a string in the format of dd/mm/yyyy.
 
@@ -649,3 +649,13 @@ The task is to convert a given date to a string in the format of dd/mm/yyyy.
 Below is an example of the program's output:
 
 ![program Output](images/Exo64_Output.png)
+
+## Exercise 65 : Print Date in Different Formats
+
+The task is to print a given date in different formats.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo65_Output.png)
