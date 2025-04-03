@@ -639,3 +639,13 @@ The task is to convert a given string in the format of dd/mm/yyyy to a date.
 Below is an example of the program's output:
 
 ![program Output](images/Exo63_Output.png)
+
+## Exercise 63 : Convert Date To String
+
+The task is to convert a given date to a string in the format of dd/mm/yyyy.
+
+### Output:
+
+Below is an example of the program's output:
+
+![program Output](images/Exo64_Output.png)
